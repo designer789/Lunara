@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunara</title>
+    <link rel="icon" type="image/png" href="./public/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <svg width="0" height="0" style="position: absolute;" preserveAspectRatio="none">
+        <defs>
+            <mask id="frame-shape" maskUnits="objectBoundingBox" maskContentUnits="objectBoundingBox">
+                <path fill="white" d="
+                    M 0 0.074
+                    L 0.035 0
+                    L 0.65 0
+                    L 0.7 0.074
+                    L 1 0.074
+                    L 1 0.95
+                    L 0.97 1
+                    L 0.03 1
+                    L 0 0.95
+                    Z
+                "/>
+                <path fill="black" d="
+                    M 0.001 0.075
+                    L 0.036 0.001
+                    L 0.649 0.001
+                    L 0.699 0.075
+                    L 0.999 0.075
+                    L 0.999 0.949
+                    L 0.969 0.999
+                    L 0.031 0.999
+                    L 0.001 0.949
+                    Z
+                "/>
+            </mask>
+        </defs>
+    </svg>
+    <div class="frame-glow"></div>
+    <div class="frame-container"></div>
+    <div class="stars"></div>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="./public/hd.png" alt="Lunara" class="logo-image">
+            </div>
+            <div class="nav-links">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#advantages" class="nav-link">Advantages</a>
+                <a href="#mechanism" class="nav-link">Mechanism</a>
+                <a href="#tokenomics" class="nav-link">Tokenomics</a>
+                <a href="#roadmap" class="nav-link">Roadmap</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+            </div>
+            <div class="social-links">
+                <a href="https://x.com/Lunara_OFFICIAL" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/>
+                    </svg>
+                </a>
+                <a href="https://t.me/LNA_Official" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                        <path d="M248 8C111 8 0 119 0 256S111 504 248 504 496 393 496 256 385 8 248 8zM363 176.7c-3.7 39.2-19.9 134.4-28.1 178.3-3.5 18.6-10.3 24.8-16.9 25.4-14.4 1.3-25.3-9.5-39.3-18.7-21.8-14.3-34.2-23.2-55.3-37.2-24.5-16.1-8.6-25 5.3-39.5 3.7-3.8 67.1-61.5 68.3-66.7 .2-.7 .3-3.1-1.2-4.4s-3.6-.8-5.1-.5q-3.3 .7-104.6 69.1-14.8 10.2-26.9 9.9c-8.9-.2-25.9-5-38.6-9.1-15.5-5-27.9-7.7-26.8-16.3q.8-6.7 18.5-13.7 108.4-47.2 144.6-62.3c68.9-28.6 83.2-33.6 92.5-33.8 2.1 0 6.6 .5 9.6 2.9a10.5 10.5 0 0 1 3.5 6.7A43.8 43.8 0 0 1 363 176.7z"/>
+                    </svg>
+                </a>
+                <a href="javascript:void(0)" class="social-link">
+                    <img src="./public/dextools.svg" class="social-icon" alt="Dextools" />
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-container">
+        <div class="content-mask"></div>
+        <div class="content-wrapper">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1 class="glowing-text">
+                        <span class="main-title">Revolutionizing Stablecoins with</span><br/>
+                        <span class="highlight">Solana-Powered Synthetic Dollars</span>
+                    </h1>
+                    <div class="hero-description">
+                        <p>Lunara is a cutting-edge synthetic dollar protocol on Solana, introducing $LUSD—a fully-backed, scalable, and censorship-resistant stablecoin engineered for DeFi dominance. Built on Solana's high-performance blockchain and leveraging a delta-neutral hedging strategy, Lunara transforms volatile crypto assets into a reliable USD-pegged instrument. Stake $LUSD to unlock sustainable yields from Funding Rates and protocol revenue, redefining stablecoin utility in decentralized finance.</p>
+                    </div>
+                    <div class="hero-buttons">
+                        <button class="primary-btn">Launch App</button>
+                        <button class="secondary-btn">Documentation</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- 预留图片容器 -->
+                </div>
+            </div>
+
+            <section id="features" class="features">
+                <div class="features-container">
+                    <h2 class="glowing-text">Stablecoins Backed By Synthetic Dollars</h2>
+                    <div class="carousel-container">
+                        <button class="carousel-btn prev-btn" data-carousel="features-carousel">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <div class="carousel-wrapper" id="features-carousel">
+                            <div class="feature-grid">
+                                <div class="feature-card">
+                                    <div class="card-icon">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                                            <path d="M12 8V16M8 12H16M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                        </svg>
+                                    </div>
+                                    <h3>Atomic $LUSD Minting</h3>
+                                    <p>Deposit SOL, BTC, or ETH, and Lunara instantly mints $LUSD by opening matching short perpetual positions—peg stability achieved in one seamless transaction.</p>
+                                </div>
+                                <div class="feature-card">
+                                    <div class="card-icon">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                                            <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="currentColor" stroke-width="2"/>
+                                            <path d="M3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                        </svg>
+                                    </div>
+                                    <h3>Yield-Bearing $sLUSD</h3>
+                                    <p>Stake $LUSD to receive $sLUSD, a reward-accruing asset that grows in value with protocol revenue—no rehypothecation, just pure profits.</p>
+                                </div>
+                                <div class="feature-card">
+                                    <div class="card-icon">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                                            <path d="M12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21M12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21M12 3V21M3 12H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </div>
+                                    <h3>Liquidity Provision</h3>
+                                    <p>Supply $LUSD to Solana AMMs (e.g., Raydium) and earn $LNA rewards while boosting DeFi liquidity.</p>
+                                </div>
+                                <div class="feature-card">
+                                    <div class="card-icon">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                                            <path d="M8 8L12 4M12 4L16 8M12 4V13M16 16L12 20M12 20L8 16M12 20V11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </div>
+                                    <h3>Cross-Chain Interoperability</h3>
+                                    <p>Move $LUSD effortlessly between Solana and Ethereum via LayerZero or Wormhole, expanding its reach across ecosystems.</p>
+                                </div>
+                                <div class="feature-card">
+                                    <div class="card-icon">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                                            <path d="M17 4L20 7L17 10M7 20L4 17L7 14M4 7L7 4L10 7M20 17L17 20L14 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </div>
+                                    <h3>Flexible Redemption</h3>
+                                    <p>Redeem $LUSD for backing assets through permissionless AMM pools or direct channels (for KYC-approved entities).</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-btn next-btn" data-carousel="features-carousel">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <div class="carousel-dots"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="advantages" class="advantages">
+                <div class="advantages-container">
+                    <h2 class="glowing-text">The Dollar King of Solana</h2>
+                    <div class="carousel-container">
+                        <button class="carousel-btn prev-btn" data-carousel="advantages-carousel">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <div class="carousel-wrapper" id="advantages-carousel">
+                            <div class="advantage-grid">
+                                <div class="advantage-card">
+                                    <div class="card-icon">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                                            <path d="M13 10V3L4 14H11V21L20 10H13Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                        </svg>
+                                    </div>
+                                    <h3>Unmatched Scalability</h3>
+                                    <p>Powered by Solana's 65,000+ TPS and $65B+ perp market liquidity, $LUSD scales to billions without the bottlenecks of Ethereum-based stablecoins.</p>
+                                </div>
+                                <div class="advantage-card">
+                                    <div class="card-icon">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                                            <path d="M3 12H7L10 19L14 5L17 12H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </div>
+                                    <h3>Capital Efficiency Edge</h3>
+                                    <p>A pioneering 1:1 delta-neutral backing eliminates overcollateralization, unlocking capital efficiency far beyond traditional models like DAI (150%+ ratios).</p>
+                                </div>
+                                <div class="advantage-card">
+                                    <div class="card-icon">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                                            <path d="M3 20L10 13L14 17L21 10M21 10V16M21 10H15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </div>
+                                    <h3>High-Yield Funding Rates</h3>
+                                    <p>Tap into Solana's lucrative perpetual futures market—short-side Funding Rates averaged ~9% annually, with $sLUSD delivering up to 18% APY in 2024 (inspired by Ethena's success).</p>
+                                </div>
+                                <div class="advantage-card">
+                                    <div class="card-icon">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                                            <path d="M12 3L20 7V11C20 15.97 16.84 20.44 12 21.7C7.16 20.44 4 15.97 4 11V7L12 3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M9 12L11 14L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </div>
+                                    <h3>Censorship-Resistant Design</h3>
+                                    <p>Assets secured via Off-Exchange Settlement (OES) providers ensure zero custodial risk, outperforming DeFi's $7B hack losses and CeFi's $15B failures last cycle.</p>
+                                </div>
+                                <div class="advantage-card">
+                                    <div class="card-icon">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                                            <path d="M12 7H21M12 12H21M12 17H21M3 7H8M3 12H8M3 17H8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M5.5 9.5V4.5M5.5 19.5V14.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </div>
+                                    <h3>Robust Revenue Streams</h3>
+                                    <p>Diversified income from Funding Rates, liquid stable rewards, and SOL staking consensus—sustainable yields even in bear markets, backed by a reserve fund cushion.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-btn next-btn" data-carousel="advantages-carousel">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="mechanism" class="mechanism">
+                <div class="mechanism-container">
+                    <h2 class="glowing-text">Innovative Mechanism</h2>
+                    <div class="mechanism-content">
+                        <div class="mechanism-main">
+                            <div class="mechanism-card">
+                                <h3>Delta-Neutral Precision</h3>
+                                <p>$LUSD maintains its peg through automated delta hedging—e.g., 1 SOL deposited triggers a 1 SOL short perpetual, neutralizing price volatility with a portfolio delta of 0.</p>
+                            </div>
+                            <div class="mechanism-card">
+                                <h3>Off-Exchange Security</h3>
+                                <p>Backing assets (SOL, BTC, ETH) are held in institutional-grade OES solutions, delegating to CEXs only for settlement, minimizing counterparty exposure.</p>
+                            </div>
+                        </div>
+                        <div class="revenue-section">
+                            <h3>Revenue Generation</h3>
+                            <p class="revenue-intro">Protocol profits stem from three sources:</p>
+                            <div class="revenue-items">
+                                <div class="revenue-item">
+                                    <h4>Funding Rate Spread</h4>
+                                    <p>Short perpetuals historically yield 7-13% annually (BTC/ETH/SOL).</p>
+                                </div>
+                                <div class="revenue-item">
+                                    <h4>Liquid Stable Rewards</h4>
+                                    <p>USDC holdings earn fixed rates (e.g., Coinbase's 2024 program).</p>
+                                </div>
+                                <div class="revenue-item">
+                                    <h4>SOL Staking</h4>
+                                    <p>Consensus rewards enhance returns, with no leverage risk.</p>
+                                </div>
+                            </div>
+                            <div class="reward-distribution">
+                                <h3>Reward Distribution</h3>
+                                <p>$sLUSD holders receive daily revenue drips via a "Token Vault" model—your stake grows autonomously, shielded from negative Funding by the reserve fund.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="tokenomics" class="tokenomics">
+                <div class="tokenomics-container">
+                    <h2 class="glowing-text">Tokenomics of $LNA</h2>
+                    <div class="tokenomics-content">
+                        <div class="total-supply">
+                            <h3>Total Supply: 1 Billion $LNA</h3>
+                        </div>
+                        <div class="tokenomics-grid">
+                            <div class="allocation">
+                                <h3>Allocation</h3>
+                                <div class="allocation-items">
+                                    <div class="allocation-item">
+                                        <div class="allocation-bar" style="width: 30%"></div>
+                                        <span class="allocation-label">Community & Incentives</span>
+                                        <span class="allocation-value">30%</span>
+                                    </div>
+                                    <div class="allocation-item">
+                                        <div class="allocation-bar" style="width: 5%"></div>
+                                        <span class="allocation-label">Team</span>
+                                        <span class="allocation-value">5%</span>
+                                    </div>
+                                    <div class="allocation-item">
+                                        <div class="allocation-bar" style="width: 10%"></div>
+                                        <span class="allocation-label">Ecosystem Development</span>
+                                        <span class="allocation-value">10%</span>
+                                    </div>
+                                    <div class="allocation-item">
+                                        <div class="allocation-bar" style="width: 5%"></div>
+                                        <span class="allocation-label">Investors</span>
+                                        <span class="allocation-value">5%</span>
+                                    </div>
+                                    <div class="allocation-item">
+                                        <div class="allocation-bar" style="width: 50%"></div>
+                                        <span class="allocation-label">Liquidity</span>
+                                        <span class="allocation-value">50%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="utility">
+                                <h3>Utility</h3>
+                                <div class="utility-items">
+                                    <div class="utility-item">
+                                        <h4>Governance</h4>
+                                        <p>$LNA holders shape protocol evolution (e.g., approving new backing assets).</p>
+                                    </div>
+                                    <div class="utility-item">
+                                        <h4>Fee Optimization</h4>
+                                        <p>Reduce minting/redemption costs with $LNA payments.</p>
+                                    </div>
+                                    <div class="utility-item">
+                                        <h4>Staking Yield</h4>
+                                        <p>Stake $LNA for $sLNA to share ecosystem revenue.</p>
+                                    </div>
+                                    <div class="utility-item">
+                                        <h4>Ecosystem Perks</h4>
+                                        <p>Gain priority access to partner incentives and integrations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="roadmap" class="roadmap">
+                <div class="roadmap-container">
+                    <h2 class="glowing-text">Project Roadmap</h2>
+                    <div class="roadmap-content">
+                        <div class="phase-card">
+                            <div class="phase-header">
+                                <h3>Phase 1</h3>
+                                <span class="phase-title">Launch Phase</span>
+                            </div>
+                            <ul class="phase-list">
+                                <li>Deploy $LNA and $LUSD contracts on Solana.</li>
+                                <li>Enable minting with SOL/BTC/ETH hedging.</li>
+                                <li>Initiate developer and community onboarding.</li>
+                            </ul>
+                        </div>
+                        <div class="phase-card">
+                            <div class="phase-header">
+                                <h3>Phase 2</h3>
+                                <span class="phase-title">Ecosystem Buildout</span>
+                            </div>
+                            <ul class="phase-list">
+                                <li>Integrate $LUSD into Solana lending and AMM protocols.</li>
+                                <li>Launch $sLUSD staking with Funding Rate rewards.</li>
+                                <li>Secure initial DeFi partnerships.</li>
+                            </ul>
+                        </div>
+                        <div class="phase-card">
+                            <div class="phase-header">
+                                <h3>Phase 3</h3>
+                                <span class="phase-title">Scale & Bridge</span>
+                            </div>
+                            <ul class="phase-list">
+                                <li>Activate cross-chain bridging to Ethereum.</li>
+                                <li>Distribute $LNA incentives to boost liquidity.</li>
+                                <li>Expand marketing to DeFi-focused platforms.</li>
+                            </ul>
+                        </div>
+                        <div class="phase-card">
+                            <div class="phase-header">
+                                <h3>Phase 4</h3>
+                                <span class="phase-title">DeFi Leadership</span>
+                            </div>
+                            <ul class="phase-list">
+                                <li>Enhance hedging with additional CEX perp markets.</li>
+                                <li>Establish Lunara DAO for decentralized governance.</li>
+                                <li>Target $LUSD as a core collateral asset across Solana DeFi.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="faq" class="faq">
+                <div class="faq-container">
+                    <h2 class="glowing-text">Project FAQ</h2>
+                    <div class="faq-content">
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>What is Lunara?</h3>
+                                <div class="faq-toggle">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M12 8V16M8 12H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Lunara is a synthetic dollar protocol on Solana, offering $LUSD—a stablecoin backed by crypto assets (SOL, BTC, ETH) and hedged with perpetual futures to ensure stability and scalability across DeFi applications.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>How does $LUSD maintain its peg to the USD?</h3>
+                                <div class="faq-toggle">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M12 8V16M8 12H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>$LUSD uses a delta-neutral strategy: for every 1 SOL deposited, Lunara opens a 1 SOL short perpetual position. This offsets price fluctuations, maintaining a portfolio delta of 0 and keeping $LUSD pegged to $1, even in volatile markets.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>What yields can I expect from staking $LUSD into $sLUSD?</h3>
+                                <div class="faq-toggle">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M12 8V16M8 12H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Stakers earn from three sources: Funding Rates from short perpetuals (historically 7-13% annually for BTC/ETH/SOL), fixed rewards from liquid stables like USDC, and SOL staking consensus rewards. In 2024, similar systems achieved up to 18% APY, with Lunara's reserve fund protecting against negative periods.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>How does Lunara differ from USDC or DAI?</h3>
+                                <div class="faq-toggle">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M12 8V16M8 12H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Unlike USDC, which relies on centralized banking rails, or DAI, which requires 150%+ overcollateralization, $LUSD offers a 1:1 backing ratio, Solana's low-cost efficiency, and yield generation without custodial risk—making it more scalable and user-friendly for DeFi.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>What's the role of $LNA in the ecosystem?</h3>
+                                <div class="faq-toggle">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M12 8V16M8 12H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>$LNA is the governance and utility token. It enables voting on protocol upgrades (e.g., new backing assets), reduces minting/redemption fees, unlocks staking rewards via $sLNA, and provides priority access to ecosystem incentives.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>How does Lunara ensure security for $LUSD backing assets?</h3>
+                                <div class="faq-toggle">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M12 8V16M8 12H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Assets are custodied in Off-Exchange Settlement (OES) solutions—never held directly on exchanges—reducing counterparty risk. OES providers use bankruptcy-remote trusts, ensuring assets remain safe even if a provider fails, a design proven to avoid the $7B DeFi and $15B CeFi losses of past cycles.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="footer-container">
+                    <div class="footer-content">
+                        <div class="footer-logo">
+                            <img src="./public/hd.png" alt="Lunara" class="logo-image">
+                        </div>
+                        <div class="footer-links">
+                            <div class="footer-section">
+                                <h4>Community</h4>
+                                <a href="https://x.com/Lunara_OFFICIAL" target="_blank" rel="noopener noreferrer">Twitter</a>
+                                <a href="https://t.me/LNA_Official" target="_blank" rel="noopener noreferrer">Telegram</a>
+                                <a href="javascript:void(0)" class="social-link">DEXTools</a>
+                            </div>
+                            <div class="footer-section">
+                                <h4>Resources</h4>
+                                <a href="javascript:void(0)" class="social-link">Gitbook</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <p>© 2025 Lunara Protocol. All rights reserved.</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html> 
